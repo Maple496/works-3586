@@ -1,0 +1,22 @@
+{
+  "name": "触屏俄罗斯方块",
+  "brief": "键盘与触屏双操作的经典俄罗斯方块，消行计分，堆顶结束并显示分数。",
+  "work_ref": "WORKS-",
+  "entry": "src/main.js",
+  "status": "ok",
+  "files": [
+    {
+      "path": "src/game.js",
+      "role": "方块、棋盘、消行计分与游戏状态逻辑"
+    },
+    {
+      "path": "src/ui.js",
+      "role": "画布绘制、覆盖层分数显示与触屏按钮输入"
+    },
+    {
+      "path": "src/main.js",
+      "role": "入口：挂载画布、驱动主循环、键盘输入与生命周期"
+    }
+  ],
+  "generated_by": "proj_forge（AI 工程工坊）"
+}
